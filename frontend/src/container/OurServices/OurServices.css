@@ -1,0 +1,29 @@
+.ourServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+.ourServices .ourServices__subHeading {
+  width: 80%;
+  padding: 15px;
+}
+.ourServices__cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .ourServices__cardContainer {
+    flex-direction: column;
+  }
+  .ourServices__card {
+    width: 100%;
+    margin: 10px;
+  }
+}

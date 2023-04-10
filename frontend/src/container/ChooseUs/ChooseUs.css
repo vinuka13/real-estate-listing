@@ -1,0 +1,25 @@
+.chooseUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.chooseUs .chooseUs__subHeading {
+  width: 80%;
+  padding: 15px;
+}
+.chooseUs__cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+  justify-content: space-around;
+  padding: 30px 50px;
+}
+@media only screen and (max-width: 700px) {
+  .chooseUs__cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

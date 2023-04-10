@@ -1,0 +1,16 @@
+.plainCard {
+  display: flex;
+  padding: 30px;
+}
+.plainCard__line {
+  width: 0%;
+  height: auto;
+}
+.plainCard__text {
+  padding-left: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .plainCard {
+    padding: 5px 5px 20px 5px;
+  }
+}

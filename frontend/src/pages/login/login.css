@@ -1,0 +1,13 @@
+.login {
+    padding-top: 160px;
+    margin-bottom: 80px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 2px #eee;
+    padding: 30px;
+}
+

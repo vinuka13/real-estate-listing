@@ -1,0 +1,45 @@
+.ourWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(229, 241, 229);
+}
+.ourWork .ourWork__subHeading {
+  width: 80%;
+  padding: 15px;
+}
+.ourWork__cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+}
+.ourWork__card {
+  width: 15%;
+  box-shadow: 0px 2px 4px 2px rgb(194, 191, 191);
+  background-color: white;
+}
+.ourWork__card .card__img {
+  max-height: 100px;
+  min-height: 100px;
+}
+.ourWork__card .card__text div {
+  padding: 3px;
+  font-size: 2rem;
+  color: rgb(9, 90, 9);
+}
+.ourWork__card .card__text h2 {
+  font-size: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .ourWork__cardContainer {
+    flex-direction: column;
+  }
+  .ourWork__card {
+    width: 50%;
+    margin: 10px;
+  }
+}

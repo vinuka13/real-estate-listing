@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.hero > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0006;
+  z-index: 10;
+}
+
+.hero > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero > article {
+  position: relative;
+  text-align: center;
+  z-index: 100;
+  color: #fff;
+}
+
+.hero > article > h1 {
+  font-size: 3.5rem;
+}
+
+.hero > article > a > button {
+  padding: 11px 20px;
+  margin: 20px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero__contactUs {
+  border: 1px solid rgb(11, 247, 11);
+  background-color: white;
+}
+.hero__contactUs:hover {
+  border: 1px solid white;
+  color: rgb(9, 90, 9);
+  transition: all 1s;
+}
+.hero__ourLands {
+  border: 1px solid rgb(11, 247, 11);
+  background-color: rgb(9, 90, 9);
+  color: white;
+}
+.hero__ourLands:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: rgb(9, 90, 9);
+  transition: all 1s;
+}
+@media only screen and (max-width: 650px) {
+  .hero > article > a > button {
+    margin: 8px;
+  }
+}

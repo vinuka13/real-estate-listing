@@ -1,0 +1,84 @@
+.lands {
+     display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    
+  }
+
+.lands-hero {
+    position: relative;
+    width: 100vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .lands-hero > span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0006;
+    z-index: 10;
+  }
+
+  .lands-hero > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .lands-hero > article {
+    position: relative;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+  }
+  
+  .lands-hero > article > h1 {
+    font-size: 3.5rem;
+  }
+
+  .lands__cardContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 30px;
+  }
+
+  .lands__card {
+    box-shadow: 0px 2px 4px 2px rgb(194, 191, 191);
+    background-color: white;
+    text-align: left;
+    margin-left: 7%;
+    flex-grow: 1;
+    max-width: 26%;
+    min-height: 400px;
+    margin-top: 5%;
+  }
+
+  .link:visited, .link:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .lands__cardContainer {
+      flex-direction: column;
+    }
+    .lands__card {
+      margin: 10px;
+      width: 100%;
+      margin-left: 0;
+      max-width: 100%;
+      min-height: 100%;
+    }
+  }
+ 

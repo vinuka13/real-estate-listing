@@ -1,0 +1,9 @@
+.landDetails {
+    padding-top: 80px;
+    margin-left: 50px;
+    display: block;
+}
+
+.landDetails h1 {
+    margin-bottom: 30px;
+}

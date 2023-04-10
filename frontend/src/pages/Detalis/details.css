@@ -1,0 +1,141 @@
+.land-details {
+    padding-top: 80px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.land-details .heading {
+    margin-left: 40px;
+}
+
+.land-details h1 {
+    padding-top: 30px;
+    color: #0F5809;
+    display: inline;
+}
+
+.land-details .gallery {
+    width: 50%;
+    margin: auto;
+}
+
+
+.land-info {
+    padding-top: 60px;
+    width: 70%;
+    margin: auto;
+    padding-left: 20%;
+}
+
+.land-info img {
+    max-height: 40px;
+    min-height: 40px;
+    padding: 20px 0px;
+}
+
+.action {
+    display: flex;
+}
+
+.call {
+    display: flex;
+}
+
+.call h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.location {
+    display: flex;
+    padding-left: 40px;
+}
+
+
+.location h3 {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.land-all {
+    display: flex;
+    padding-top: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.land-view {
+   padding-bottom: 40px;
+   padding-right: 40px;
+   width: 70%;
+}
+
+.land-discription p {
+    font-size: larger;
+}
+
+.land-price {
+    background-color: #E9E9E9;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .land-details .gallery {
+        width: 80%;
+        margin: auto
+    }
+
+    .land-info {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .land-all {
+        display: grid;
+        width: 80%;
+    }
+
+    .land-view {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .form {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .land-details .gallery {
+        width: 100%;
+        margin: auto
+    }
+
+    .land-info {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .land-all {
+        width: 100%;
+       margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .action {
+        display: grid;
+
+    }
+    .location {
+        padding-left: 10px;
+    }
+
+    .location h3 {
+        padding-left: 20px;
+    }
+}

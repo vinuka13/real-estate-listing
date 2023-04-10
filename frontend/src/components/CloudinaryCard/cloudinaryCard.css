@@ -1,0 +1,32 @@
+ .image_div {
+    height: 220px
+  }
+
+ .cloudCard_img {
+    max-height: 200px;
+    min-height: 200px;
+    padding: 0px;
+    object-fit: cover;
+  }
+ .cloudCard__text {
+    padding: 15px 20px;
+  }
+ .cloudCard__text i {
+    margin-right: 10px;
+  }
+ .cloudCard__text h2 {
+   padding-top: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+ .cloudCard__text p {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+ .image_div{
+      height:auto
+    }    
+  }

@@ -1,0 +1,228 @@
+.services {
+  width: 100%;
+  overflow: hidden;
+}
+
+.services-hero {
+    position: relative;
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  .services-hero > span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0006;
+    z-index: 10;
+  }
+
+  .services-hero > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .services-hero > article {
+    position: relative;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+  }
+  
+  .services-hero > article > h1 {
+    font-size: 3.5rem;
+  }
+
+  .content {
+      padding-top: 80px;
+      margin: 5px 90px 20px 90px;
+  }
+
+  .content h1 {
+      text-align: center;
+      font-size: 2.5rem;
+  }
+
+  .buy-container {
+      display: flex;
+      padding-top: 20px;
+  }
+
+  .buy-pic {
+      width: 40%;
+  }
+
+  .buy-pic img {
+      width: 90%;
+      /* min-width: 200px; */
+  }
+
+  .buy-details {
+      width: 80%;
+  }
+
+  .buy-details h3 {
+      padding-top: 50px;
+      padding-left: 70px;
+      font-weight: normal;
+  }
+
+
+  .develop-container {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .develop-pic {
+    width: 40%;
+  }
+  
+  
+  .develop-pic img {
+    width: 90%;
+    /* min-width: 200px; */
+}
+
+.develop-details {
+    width: 80%;
+}
+
+.develop-details h3 {
+    padding-top: 50px;
+    padding-right: 70px;
+    font-weight: normal;
+}
+
+.services-ex {
+  padding-top:20px ;
+  background-color: #E5F1E5;
+  margin-bottom: 60px;
+}
+
+.consulting-container {
+  display: flex;
+  padding-top: 20px; 
+  margin-bottom: 70px;
+}
+
+.consulting-pic {
+  width: 40%;
+}
+
+.consulting-pic img {
+  width: 90%;
+  /* min-width: 200px; */
+  border-radius: 20px;
+}
+
+.consulting-details {
+  width: 80%;
+}
+
+.consulting-details h3 {
+  padding-top: 50px;
+  padding-left: 70px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+  .buy-container {
+    display: grid;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .buy-pic {
+    width: 100%
+  }
+
+  .buy-pic img {
+    width: 100%
+  }
+
+  .buy-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .buy-container h3 {
+    padding: 0%;
+  }
+
+  .develop-container {
+    display: grid;
+    align-items: center;
+  }
+
+  .develop-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .develop-details h3 {
+    padding: 0%;
+  }
+
+  .develop-pic {
+    width: 100%;
+  }
+
+  .develop-pic img {
+    width: 100%;
+  }
+
+  .consulting-container {
+    display: grid;
+    align-items: center;
+  }
+
+  .consulting-pic {
+    width: 100%
+  }
+
+  .consulting-pic img {
+    width: 100%;
+  }
+
+  .consulting-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .consulting-details h3 {
+    padding: 0%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .content {
+    margin: 5px 25px 20px 25px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .content {
+    margin: 5px 5px 20px 5px;
+  }
+
+  /* .buy-pic img {
+    max-width: 200px;
+  }
+
+  .develop-pic img {
+    min-width: 200px;
+  }
+
+  .develop-pic img {
+    min-width: 200px;
+  } */
+}
